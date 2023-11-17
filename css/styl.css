@@ -1,0 +1,205 @@
+body{
+background-color:beige;
+margin: 0;
+font-family: 'Bebas Neue', cursive;
+}
+ 
+.main_menu
+{
+    max-width:2000px ;
+    width: 1900px;
+    max-height: 150px;
+    height: 100px;
+    background-color: rgb(0, 128, 0);
+}
+
+.main_page
+{
+    max-width:2000px ;
+    width: 1900px;
+    max-height: 1000px;
+    height: 900px;
+}
+
+/* LEFT MENU */
+
+.left_menu {
+    position: absolute;
+    width: 300px;
+    height: 816px;
+    background-color: rgb(0, 128, 0);
+    padding-left: 40px;
+    line-height: 10px;
+    overflow: hidden;
+    z-index: 4;
+    transition: width 0.4s;
+  }
+  
+  .arrow2 {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 15px solid white;
+  }
+  
+  .arrow1 {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 15px solid white;
+  }
+  
+  .menu_lista {
+    max-width: 170px;
+    width: 70%;
+    max-height: 1000px;
+    height: 100%;
+    position: relative;
+    left: 10px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 2.5vmin;
+  }
+  
+  
+  .left_top_list {
+    position: absolute;
+    max-width: 200px;
+    width: 200px;
+    top: 40px;
+    left: -30px;
+    line-height: 6px;
+  }
+  
+
+ 
+  
+  .left_top_list h4 {
+    font-weight: normal;
+    font-size: 20px;
+    width: 200px;
+  }
+  .left_top_list h4:hover {
+  color: black;
+  }
+  
+  .hr_menu_bt {
+    color: white;
+    border-style: dotted;
+    width: 200px;
+  }
+  .menu_hr_div_bt {
+    position: absolute;
+    top: 427px;
+    left: 10px;
+  }
+  
+  .left_bottom_list {
+    position: absolute;
+    top: 465px;
+    left: -30px;
+    max-width: 200px;
+    width: 200px;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .left_bottom_list h4 {
+    font-weight: normal;
+    width: 200px;
+    font-size: 20px;
+  }
+  .left_bottom_list h4:hover {
+    color: black;
+    }
+  
+  .menu_lista a {
+    text-decoration: none;
+    color: white;
+  }
+  .left_m_list_1 {
+    list-style-type: none;
+  }
+  .left_m_list_2 {
+    list-style-type: none;
+  }
+  
+ 
+  .hr_menu_under_list {
+    color: white;
+    border-style: dotted;
+    width: 200px;
+  }
+  .menu_hr_div_u_list {
+    position: absolute;
+    top: 620px;
+    left: 10px;
+  }
+  
+  .left_menu button {
+    position: absolute;
+    top: 50.5%;
+    border: none;
+    right: 0;
+  
+    outline: none;
+    width: 30px;
+    height: 30px;
+  
+    cursor: pointer;
+    background-color: rgb(0, 128, 0);
+  }
+  .left_menu .arrow1 {
+    display: none;
+  }
+  .left_menu.closed {
+    width: 0px;
+
+  }
+  
+  .left_menu.closed .arrow1 {
+    display: none;
+  }
+  
+  .left_menu.closed .arrow2 {
+    display: block;
+  }
+  
+  .icon_facebook_menu {
+    position: absolute;
+  
+    top: 657px;
+    left: 10px;
+  }
+  .icon_insta_menu {
+    position: absolute;
+  
+    top: 660px;
+    left: 75px;
+  }
+ 
+
+  footer
+{
+
+    max-width:2000px ;
+    width: 1900px;
+    max-height: 80px;
+    height: 50px;
+    background-color: rgb(10, 114, 10);
+    color: white;
+
+
+}
+footer p
+{
+
+  position: relative;
+  left: 45%;
+  top: 45%;
+
+
+}

@@ -1,0 +1,16 @@
+body{
+background-color: rgb(197, 214, 200);
+margin: 0;
+}
+ 
+.main_menu
+{
+    max-width:2000px ;
+    width: 1900px;
+    max-height: 150px;
+    height: 100px;
+    background-color: rgb(10, 114, 10);
+}
+
+
+
